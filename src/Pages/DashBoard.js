@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Car from "../Assets/Car.png";
 import Ticket from "../Assets/Ticket.png";
 import Location from "../Assets/Location.png";
-import Police from "../Assets/Police officer with police car in town.png"
+import Img from "../Assets/Police officer with police car in town.png"
 const DashBoard = ()=>{
     return(
         <div>
@@ -54,8 +54,9 @@ const DashBoard = ()=>{
      <input type="file" id="myfile" name="myfile" />
 </div>
        </div>
-       
+       <img src={Img} className="absolute bottom-0 left-0"/>
         </div>
+
     );
 };
 export default DashBoard;

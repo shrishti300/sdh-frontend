@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = ()=>{
     return(
         <>
-            <div className="flex justify-between h-[10vh] pt-2 item-center">
+            <div className="flex justify-between h-[10vh] pt-2 item-center border-b-4 border-gray-300">
                 <div>
                     <a href="/dashboard" className="no-underline">
                     <div>
