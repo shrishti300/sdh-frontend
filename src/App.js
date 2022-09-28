@@ -1,6 +1,6 @@
-import React, { useState, useEffect, Suspense, lazy } from "react";
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import './App.css';
+import "tailwindcss/tailwind.css";
 import {
   Routes,
   Route,
@@ -8,11 +8,14 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import DashBoard from "./pages/DashBoard.js";
+import DashBoard from "./Pages/DashBoard.js";
 const App=()=> {
   return (
     <Router>
-    
+    <Routes>
+     <Route
+            path="/dashboard" element={<DashBoard />} />
+            </Routes>
     </Router>
   );
 }
