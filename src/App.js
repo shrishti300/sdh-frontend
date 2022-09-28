@@ -1,6 +1,7 @@
 import React from "react";
 //import './App.css';
 import "tailwindcss/tailwind.css";
+import Register from "./Pages/Register.js";
 import {
   Routes,
   Route,
@@ -15,7 +16,10 @@ const App=()=> {
     <Routes>
      <Route
             path="/dashboard" element={<DashBoard />} />
+                <Route
+            path="/register" element={<Register />} />
             </Routes>
+            
     </Router>
   );
 }
