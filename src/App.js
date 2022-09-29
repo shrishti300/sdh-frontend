@@ -3,6 +3,7 @@ import React from "react";
 import "tailwindcss/tailwind.css";
 import Register from "./Pages/Register.js";
 import FetchDetails from "./Pages/FetchDetails";
+import FetchDisplay from "./Pages/FetchDisplay";
 import {
   Routes,
   Route,
@@ -21,6 +22,7 @@ const App=()=> {
           <Route path="/register" element={<Register />} />
 
 <Route path="/fetchdetails" element={<FetchDetails />} />
+<Route path="/fetchdisplay" element={<FetchDisplay />} />
             </Routes>
             
     </Router>
